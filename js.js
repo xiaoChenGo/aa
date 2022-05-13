@@ -78,7 +78,7 @@ function displayData(){
             const para = document.createElement('p');
 
             listItem.appendChild(h3);
-            h3.appendChild('para');
+            h3.appendChild(para);
             list.appendChild(listItem);
 
             h3.textContent = cursor.value.title;
